@@ -25,6 +25,9 @@ devDependencies:
   vite:
     specifier: ^5.4.2
     version: 5.4.2
+  vite-plugin-mock-response:
+    specifier: ^1.0.0
+    version: 1.0.0
 
 packages:
 
@@ -936,6 +939,21 @@ packages:
       browserslist: 4.23.3
       escalade: 3.1.2
       picocolors: 1.0.1
+    dev: true
+
+  /vite-plugin-mock-response@1.0.0:
+    resolution: {integrity: sha512-m5qseQK2sKvwyVABY9Ztn9yzSfMYxPiGEUonznZS21cV/jy+DibaQ0Rn4vv47yfYZa+3H6pfIvjntnLGEsV91w==}
+    dependencies:
+      vite: 5.4.2
+    transitivePeerDependencies:
+      - '@types/node'
+      - less
+      - lightningcss
+      - sass
+      - sass-embedded
+      - stylus
+      - sugarss
+      - terser
     dev: true
 
   /vite@5.4.2:
